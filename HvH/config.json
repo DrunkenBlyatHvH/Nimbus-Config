@@ -2978,7 +2978,7 @@
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "type" : 0
+         "type" : 1
       },
       "DangerZone" : {
          "ammobox" : false,
