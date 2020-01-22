@@ -1,14 +1,14 @@
 {
    "ASUSWalls" : {
       "color" : {
-         "a" : 0.58823531866073608,
-         "b" : 1,
-         "g" : 1,
-         "r" : 1,
+         "a" : 1,
+         "b" : 0.046109955757856369,
+         "g" : 0.046109955757856369,
+         "r" : 0.83417081832885742,
          "rainbow" : false,
          "rainbowSpeed" : 0.5
       },
-      "enabled" : false
+      "enabled" : true
    },
    "Aimbot" : {
       "AutoCrouch" : {
@@ -166,7 +166,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 17.065999984741211
+               "Value" : 15.269001007080078
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -215,7 +215,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 83.333000183105469
+               "Value" : 80.047004699707031
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -408,7 +408,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 71.5570068359375
+               "Value" : 78.144004821777344
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -419,7 +419,7 @@
                   true,
                   true,
                   true,
-                  true,
+                  false,
                   false,
                   false,
                   false,
@@ -457,7 +457,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 95.07000732421875
+               "Value" : 94.601005554199219
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -469,7 +469,7 @@
                "Enabled" : false
             },
             "Prediction" : {
-               "enabled" : true
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -494,8 +494,8 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : false,
-               "Value" : 1
+               "Enabled" : true,
+               "Value" : 0.010000000707805157
             },
             "TargetBone" : 5,
             "engageLock" : false,
@@ -771,7 +771,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 3.2930002212524414
+               "Value" : 29.641000747680664
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -820,7 +820,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 70.188003540039062
+               "Value" : 90.376007080078125
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -857,8 +857,8 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : false,
-               "Value" : 1
+               "Enabled" : true,
+               "Value" : 0.010000000707805157
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -941,7 +941,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 73.944000244140625
+               "Value" : 15.258000373840332
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -978,7 +978,7 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : true,
+               "Enabled" : false,
                "Value" : 0.01900000125169754
             },
             "TargetBone" : 8,
@@ -1255,7 +1255,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 11.078000068664551
+               "Value" : 9.880000114440918
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -1316,7 +1316,7 @@
                "Enabled" : false
             },
             "Prediction" : {
-               "enabled" : true
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1704,8 +1704,8 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : false,
-               "Value" : 1
+               "Enabled" : true,
+               "Value" : 0.018000001087784767
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -1946,8 +1946,8 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : false,
-               "Value" : 1
+               "Enabled" : true,
+               "Value" : 0.010000000707805157
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -2635,7 +2635,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 71.596000671386719
+               "Value" : 84.74200439453125
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2673,7 +2673,7 @@
             },
             "SpreadLimit" : {
                "Enabled" : true,
-               "Value" : 0.053000003099441528
+               "Value" : 0.029000001028180122
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -3070,7 +3070,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 43.413002014160156
+               "Value" : 50.599002838134766
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -3312,7 +3312,7 @@
             },
             "AutoWall" : {
                "Enabled" : true,
-               "Value" : 20.060001373291016
+               "Value" : 9.880000114440918
             },
             "ClosestBone" : false,
             "DesiredBones" : {
@@ -3603,7 +3603,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : true,
-               "Value" : 96.948005676269531
+               "Value" : 100.00000762939453
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3621,7 +3621,7 @@
                "AlwaysOn" : true,
                "AmountX" : 2,
                "AmountY" : 2,
-               "Enabled" : true
+               "Enabled" : false
             },
             "ScopeControl" : {
                "Enabled" : false
@@ -4277,7 +4277,7 @@
       "LBYBreaker" : {
          "enabled" : true,
          "manual" : false,
-         "offset" : 235
+         "offset" : 104
       },
       "Pitch" : {
          "enabled" : true,
@@ -4288,8 +4288,8 @@
       },
       "Yaw" : {
          "enabled" : true,
-         "offset" : 202,
-         "type" : 3
+         "offset" : 64,
+         "type" : 12
       }
    },
    "AutoAccept" : {
@@ -4308,9 +4308,9 @@
       "onKey" : false
    },
    "AutoStrafe" : {
-      "enabled" : false,
+      "enabled" : true,
       "silent" : true,
-      "type" : 0
+      "type" : 4
    },
    "Autoblock" : {
       "enabled" : false,
@@ -4357,7 +4357,7 @@
          "type" : 1
       },
       "BulletTracers" : {
-         "enabled" : false
+         "enabled" : true
       },
       "Chams" : {
          "Arms" : {
@@ -4375,16 +4375,16 @@
          "Weapon" : {
             "color" : {
                "a" : 1,
-               "b" : 1,
-               "g" : 1,
+               "b" : 0.99998998641967773,
+               "g" : 0.99998998641967773,
                "r" : 1,
-               "rainbow" : false,
+               "rainbow" : true,
                "rainbowSpeed" : 0.5
             },
-            "enabled" : false,
+            "enabled" : true,
             "type" : 0
          },
-         "enabled" : false,
+         "enabled" : true,
          "localplayer_color" : {
             "a" : 1,
             "b" : 1,
@@ -4416,7 +4416,7 @@
             "a" : 1,
             "b" : 0,
             "g" : 0,
-            "hp" : false,
+            "hp" : true,
             "r" : 1,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
@@ -4425,12 +4425,12 @@
             "a" : 1,
             "b" : 0,
             "g" : 1,
-            "hp" : false,
+            "hp" : true,
             "r" : 1,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "type" : 0
+         "type" : 1
       },
       "DangerZone" : {
          "ammobox" : false,
@@ -4635,8 +4635,8 @@
          },
          "weapon_color" : {
             "a" : 1,
-            "b" : 0.61960786581039429,
-            "g" : 0.61960786581039429,
+            "b" : 0.61960166692733765,
+            "g" : 0.61960166692733765,
             "r" : 0.61960786581039429,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
@@ -4736,8 +4736,8 @@
          "type" : 0
       },
       "Tracers" : {
-         "enabled" : false,
-         "type" : 0
+         "enabled" : true,
+         "type" : 1
       },
       "ally_color" : {
          "a" : 1,
@@ -4982,9 +4982,9 @@
       "viewmodel_value" : 90
    },
    "FakeLag" : {
-      "adaptive" : false,
+      "adaptive" : true,
       "enabled" : false,
-      "value" : 9
+      "value" : 1
    },
    "FakeVote" : {
       "message" : "Call timeout?"
@@ -5205,7 +5205,7 @@
       "showOnlyWhenShooting" : false
    },
    "Resolver" : {
-      "resolve_all" : true
+      "resolve_all" : false
    },
    "ScreenshotCleaner" : {
       "enabled" : false
@@ -5686,8 +5686,8 @@
       }
    },
    "SkyBox" : {
-      "enabled" : false,
-      "skyBoxNumber" : 0
+      "enabled" : true,
+      "skyBoxNumber" : 22
    },
    "SniperCrosshair" : {
       "enabled" : true
@@ -5724,15 +5724,15 @@
       "spammer_type" : 0
    },
    "ThirdPerson" : {
-      "distance" : 216,
+      "distance" : 500,
       "enabled" : true,
       "key" : 32,
-      "type" : 0
+      "type" : 1
    },
    "TracerEffects" : {
-      "effect" : 4,
+      "effect" : 1,
       "enabled" : false,
-      "frequency" : 1,
+      "frequency" : 10,
       "serverSide" : false
    },
    "Triggerbot" : {
@@ -5749,7 +5749,7 @@
          "walls" : false
       },
       "RandomDelay" : {
-         "enabled" : true,
+         "enabled" : false,
          "highBound" : 35,
          "lowBound" : 20
       },
@@ -5774,17 +5774,17 @@
          },
          "Config" : {
             "open" : true,
-            "posX" : 306,
+            "posX" : 307,
             "posY" : 667,
             "sizeX" : 185,
             "sizeY" : 250
          },
          "Main" : {
             "open" : true,
-            "posX" : 498,
+            "posX" : 500,
             "posY" : 253,
-            "sizeX" : 960,
-            "sizeY" : 645
+            "sizeX" : 1218,
+            "sizeY" : 700
          },
          "Playerlist" : {
             "open" : false,
