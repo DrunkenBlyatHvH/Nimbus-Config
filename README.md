@@ -1,5 +1,5 @@
 ## Add Configs
-Just Download configs and Copy them the Config Folder
+Just Download Repository and Copy the Configs to
 ```bash
 ~/.config/Fuzion
 ```
