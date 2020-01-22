@@ -1,10 +1,5 @@
 ## Add Configs
-
-#### Navigate
+Just Download configs and Copy them the Config Folder
 ```bash
-cd .config/Fuzion
-```
-#### Then Download
-```bash
-git clone https://github.com/DrunkenBlyatHvH/Pasting-Fuzion-Config.git
+~/.config/Fuzion
 ```
