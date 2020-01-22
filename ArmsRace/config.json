@@ -857,8 +857,8 @@
                "Type" : 0
             },
             "SpreadLimit" : {
-               "Enabled" : false,
-               "Value" : 1
+               "Enabled" : true,
+               "Value" : 0.010000000707805157
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -4308,9 +4308,9 @@
       "onKey" : false
    },
    "AutoStrafe" : {
-      "enabled" : false,
+      "enabled" : true,
       "silent" : true,
-      "type" : 0
+      "type" : 4
    },
    "Autoblock" : {
       "enabled" : true,
@@ -4648,7 +4648,7 @@
       },
       "Hitmarker" : {
          "Damage" : {
-            "enabled" : true
+            "enabled" : false
          },
          "Sounds" : {
             "enabled" : true,
@@ -4665,7 +4665,7 @@
          },
          "duration" : 1490,
          "enabled" : true,
-         "enemies" : true,
+         "enemies" : false,
          "inner_gap" : 5,
          "size" : 5
       },
@@ -4679,14 +4679,14 @@
          "health" : false,
          "location" : false,
          "money" : false,
-         "name" : true,
+         "name" : false,
          "planting" : false,
          "rank" : false,
          "reloading" : false,
          "rescuing" : false,
-         "scoped" : true,
+         "scoped" : false,
          "steam_id" : false,
-         "weapon" : true
+         "weapon" : false
       },
       "Skeleton" : {
          "ally_color" : {
@@ -4697,7 +4697,7 @@
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "enabled" : true,
+         "enabled" : false,
          "enemy_color" : {
             "a" : 1,
             "b" : 1,
@@ -5735,8 +5735,8 @@
             "sizeY" : 645
          },
          "Spectators" : {
-            "posX" : 11,
-            "posY" : 458,
+            "posX" : 1660,
+            "posY" : 8,
             "sizeX" : 254,
             "sizeY" : 152
          }
@@ -5776,7 +5776,7 @@
    },
    "View" : {
       "NoAimPunch" : {
-         "enabled" : true
+         "enabled" : false
       },
       "NoViewPunch" : {
          "enabled" : false
