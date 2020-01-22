@@ -2,8 +2,8 @@
    "ASUSWalls" : {
       "color" : {
          "a" : 0.58823531866073608,
-         "b" : 1,
-         "g" : 1,
+         "b" : 0.99998998641967773,
+         "g" : 0.99998998641967773,
          "r" : 1,
          "rainbow" : false,
          "rainbowSpeed" : 0.5
@@ -226,7 +226,7 @@
       "value" : ""
    },
    "DisablePostProcessing" : {
-      "enabled" : false
+      "enabled" : true
    },
    "Dlights" : {
       "enabled" : false,
@@ -272,7 +272,7 @@
          },
          "enabled" : true,
          "localplayer_color" : {
-            "a" : 1,
+            "a" : 0.49748742580413818,
             "b" : 1,
             "g" : 1,
             "hp" : false,
@@ -283,18 +283,18 @@
          "players_ally_color" : {
             "a" : 1,
             "b" : 1,
-            "g" : 0,
+            "g" : 9.2267990112304688e-05,
             "hp" : false,
             "r" : 0,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
          "players_ally_visible_color" : {
-            "a" : 1,
+            "a" : 0,
             "b" : 0,
-            "g" : 1,
+            "g" : 0.96482408046722412,
             "hp" : false,
-            "r" : 0,
+            "r" : 1,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
@@ -312,11 +312,11 @@
             "b" : 0,
             "g" : 1,
             "hp" : false,
-            "r" : 1,
+            "r" : 0.19095480442047119,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "type" : 0
+         "type" : 1
       },
       "DangerZone" : {
          "ammobox" : false,
@@ -451,7 +451,7 @@
          "fishes" : false,
          "hostages" : false,
          "legit" : false,
-         "localplayer" : false,
+         "localplayer" : true,
          "smoke_check" : false,
          "throwables" : true,
          "visibility_check" : false,
@@ -469,7 +469,7 @@
          },
          "chicken_color" : {
             "a" : 1,
-            "b" : 0.027450982481241226,
+            "b" : 0.027450978755950928,
             "g" : 0.7568628191947937,
             "r" : 1,
             "rainbow" : false,
@@ -479,11 +479,11 @@
             "a" : 1,
             "b" : 0.57254904508590698,
             "g" : 0.10588236153125763,
-            "r" : 0.19215688109397888,
+            "r" : 0.1921495795249939,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "enabled" : false,
+         "enabled" : true,
          "enemy_color" : {
             "a" : 1,
             "b" : 0,
@@ -505,8 +505,8 @@
          "grenade_color" : {
             "a" : 1,
             "b" : 0.54509806632995605,
-            "g" : 0.4901961088180542,
-            "r" : 0.37647062540054321,
+            "g" : 0.49019786715507507,
+            "r" : 0.37647059559822083,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
@@ -521,8 +521,8 @@
          },
          "weapon_color" : {
             "a" : 1,
-            "b" : 0.61960786581039429,
-            "g" : 0.61960786581039429,
+            "b" : 0.61960166692733765,
+            "g" : 0.61960166692733765,
             "r" : 0.61960786581039429,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
@@ -606,7 +606,7 @@
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "enabled" : false,
+         "enabled" : true,
          "spreadLimit" : false,
          "spreadLimitColor" : {
             "a" : 1,
@@ -962,9 +962,9 @@
    "NoSky" : {
       "color" : {
          "a" : 1,
-         "b" : 0,
-         "g" : 0,
-         "r" : 0,
+         "b" : 9.9998999303352321e-07,
+         "g" : 9.9998999303352321e-07,
+         "r" : 9.9999999747524271e-07,
          "rainbow" : false,
          "rainbowSpeed" : 0.5
       },
@@ -983,7 +983,7 @@
    },
    "Radar" : {
       "InGame" : {
-         "enabled" : true
+         "enabled" : false
       },
       "allies" : true,
       "ally_color" : {
@@ -1039,7 +1039,7 @@
          "rainbowSpeed" : 0.5
       },
       "enabled" : false,
-      "enemies" : true,
+      "enemies" : false,
       "enemy_color" : {
          "a" : 1,
          "b" : 0,
@@ -1087,7 +1087,7 @@
       "zoom" : 16
    },
    "Recoilcrosshair" : {
-      "enabled" : false,
+      "enabled" : true,
       "showOnlyWhenShooting" : false
    },
    "Resolver" : {
@@ -1355,6 +1355,14 @@
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
             "PaintKit" : 321,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mp9" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 33,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -1680,7 +1688,7 @@
       "spammer_type" : 0
    },
    "ThirdPerson" : {
-      "distance" : 163,
+      "distance" : 500,
       "enabled" : false,
       "key" : 32,
       "type" : 0
