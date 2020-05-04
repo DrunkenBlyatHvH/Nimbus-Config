@@ -17,6 +17,7 @@
       "AutoShoot" : {
          "velocityCheck" : false
       },
+      "type" : 1,
       "weapons" : {
          "DEFAULT" : {
             "AimKey" : "MOUSE5",
@@ -29,6 +30,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 180,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -93,8 +95,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 77.230003356933594
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -150,6 +152,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0.60000002384185791,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -214,8 +217,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 82.864006042480469
+               "Enabled" : false,
+               "Value" : 80
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -238,7 +241,7 @@
             "ScopeControl" : {
                "Enabled" : false
             },
-            "Silent" : false,
+            "Silent" : true,
             "SmokeCheck" : {
                "Enabled" : true
             },
@@ -271,6 +274,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -335,8 +339,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 69.718002319335938
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -392,6 +396,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 1.9010001420974731,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -456,8 +461,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 95.07000732421875
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -513,6 +518,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -577,8 +583,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 59.859001159667969
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -634,6 +640,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -698,8 +705,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.023002624511719
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -755,6 +762,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0.60000002384185791,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -819,8 +827,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 70.188003540039062
+               "Enabled" : false,
+               "Value" : 80
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -843,7 +851,7 @@
             "ScopeControl" : {
                "Enabled" : false
             },
-            "Silent" : false,
+            "Silent" : true,
             "SmokeCheck" : {
                "Enabled" : true
             },
@@ -876,6 +884,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0.60000002384185791,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -940,8 +949,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 73.944000244140625
+               "Enabled" : false,
+               "Value" : 80
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -964,7 +973,7 @@
             "ScopeControl" : {
                "Enabled" : false
             },
-            "Silent" : false,
+            "Silent" : true,
             "SmokeCheck" : {
                "Enabled" : true
             },
@@ -997,6 +1006,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1061,8 +1071,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 76.291000366210938
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1118,6 +1128,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0.60000002384185791,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1182,8 +1193,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.493003845214844
+               "Enabled" : false,
+               "Value" : 80
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1206,7 +1217,7 @@
             "ScopeControl" : {
                "Enabled" : false
             },
-            "Silent" : false,
+            "Silent" : true,
             "SmokeCheck" : {
                "Enabled" : true
             },
@@ -1239,6 +1250,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 1.9010001420974731,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1303,8 +1315,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 87.089004516601562
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1360,6 +1372,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1424,8 +1437,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.962005615234375
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1481,6 +1494,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0.60000002384185791,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1545,8 +1559,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 80.986000061035156
+               "Enabled" : false,
+               "Value" : 80
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1569,7 +1583,7 @@
             "ScopeControl" : {
                "Enabled" : false
             },
-            "Silent" : false,
+            "Silent" : true,
             "SmokeCheck" : {
                "Enabled" : true
             },
@@ -1602,6 +1616,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1666,8 +1681,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.023002624511719
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1723,6 +1738,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1787,8 +1803,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 66.9010009765625
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1844,6 +1860,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1908,8 +1925,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 86.150001525878906
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -1965,6 +1982,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2029,8 +2047,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 80.047004699707031
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2086,6 +2104,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2150,8 +2169,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.798004150390625
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2207,6 +2226,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2271,8 +2291,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.493003845214844
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2328,6 +2348,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2392,8 +2413,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 64.554000854492188
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2449,6 +2470,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2513,8 +2535,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2570,6 +2592,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2634,8 +2657,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 71.596000671386719
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2691,6 +2714,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2755,8 +2779,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 55.16400146484375
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2812,6 +2836,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2876,8 +2901,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.962005615234375
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -2933,6 +2958,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2997,8 +3023,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 70.188003540039062
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3054,6 +3080,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3118,8 +3145,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 98.357002258300781
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3175,6 +3202,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3239,8 +3267,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 55.634002685546875
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3296,6 +3324,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 1.9010001420974731,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3360,8 +3389,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 86.150001525878906
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3417,6 +3446,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3481,8 +3511,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 75.822006225585938
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3538,6 +3568,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 1.9010001420974731,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3602,8 +3633,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 100.00000762939453
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3659,6 +3690,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3724,7 +3756,7 @@
             "Friendly" : false,
             "HitChance" : {
                "Enabled" : false,
-               "Value" : 70.657005310058594
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3780,6 +3812,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3844,8 +3877,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -3901,6 +3934,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -3965,8 +3999,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 67.840003967285156
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -4022,6 +4056,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -4086,8 +4121,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 85.681007385253906
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -4143,6 +4178,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 4.4370002746582031,
+               "HeadMultiPoint" : 0,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -4207,8 +4243,8 @@
             },
             "Friendly" : false,
             "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
+               "Enabled" : false,
+               "Value" : 0
             },
             "IgnoreEnemyJump" : {
                "Enabled" : false
@@ -4264,33 +4300,44 @@
    },
    "AntiAim" : {
       "AutoDisable" : {
-         "knife_held" : false,
-         "no_enemy" : false
+         "knifeHeld" : false
       },
-      "Fake" : {
-         "enabled" : false,
-         "type" : 2
-      },
-      "HeadEdge" : {
-         "enabled" : false
+      "Desync" : {
+         "amount" : 45,
+         "interval" : 0.2199999988079071,
+         "time" : 1.1000000238418579
       },
       "LBYBreaker" : {
+         "custom" : false,
          "enabled" : false,
-         "manual" : false,
          "offset" : 180
       },
-      "Pitch" : {
-         "enabled" : false,
-         "type" : 1
+      "States" : {
+         "Air" : {
+            "angle" : 180,
+            "type" : 1
+         },
+         "Run" : {
+            "angle" : 180,
+            "type" : 1
+         },
+         "Stand" : {
+            "angle" : 180,
+            "type" : 1
+         }
       },
-      "RageDesyncFix" : {
-         "enabled" : false
-      },
-      "Yaw" : {
-         "enabled" : false,
-         "offset" : 0,
-         "type" : 5
-      }
+      "enabled" : false,
+      "fakeL" : 0,
+      "fakeR" : 0,
+      "left" : "x",
+      "off1" : 1,
+      "off2" : 1,
+      "right" : "c",
+      "roff1" : 1,
+      "roff2" : 1,
+      "states" : false,
+      "swap" : false,
+      "type" : 0
    },
    "AutoAccept" : {
       "enabled" : true
@@ -4330,7 +4377,32 @@
       "enabled" : true
    },
    "BackTrack" : {
-      "enabled" : true
+      "Chams" : {
+         "drawlastonly" : false,
+         "enabled" : false,
+         "fadecolor" : {
+            "a" : 1,
+            "b" : 0,
+            "g" : 1,
+            "r" : 0.041666626930236816,
+            "rainbow" : false,
+            "rainbowSpeed" : 0.5
+         },
+         "firstcolor" : {
+            "a" : 1,
+            "b" : 0,
+            "g" : 1,
+            "r" : 0.1306532621383667,
+            "rainbow" : false,
+            "rainbowSpeed" : 0.5
+         }
+      },
+      "enabled" : true,
+      "fov" : 180,
+      "ticks" : 16
+   },
+   "BackTrackAlpha" : {
+      "btrackalpha" : 1
    },
    "ClanTagChanger" : {
       "animation" : false,
@@ -4384,6 +4456,14 @@
             "enabled" : false,
             "type" : 0
          },
+         "backtrack_color" : {
+            "a" : 1,
+            "b" : 1,
+            "g" : 1,
+            "hp" : false,
+            "r" : 0,
+            "rainbow" : false
+         },
          "enabled" : true,
          "localplayer_color" : {
             "a" : 1,
@@ -4391,8 +4471,7 @@
             "g" : 1,
             "hp" : false,
             "r" : 0,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "players_ally_color" : {
             "a" : 1,
@@ -4400,8 +4479,7 @@
             "g" : 0,
             "hp" : false,
             "r" : 0,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "players_ally_visible_color" : {
             "a" : 1,
@@ -4409,8 +4487,7 @@
             "g" : 1,
             "hp" : false,
             "r" : 0,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "players_enemy_color" : {
             "a" : 1,
@@ -4418,8 +4495,7 @@
             "g" : 0,
             "hp" : false,
             "r" : 1,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "players_enemy_visible_color" : {
             "a" : 1,
@@ -4427,8 +4503,7 @@
             "g" : 1,
             "hp" : false,
             "r" : 1,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "type" : 1
       },
@@ -4578,8 +4653,7 @@
             "g" : 0,
             "hp" : false,
             "r" : 0,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "chicken_color" : {
             "a" : 1,
@@ -4604,8 +4678,7 @@
             "g" : 0,
             "hp" : false,
             "r" : 1,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "enemy_visible_color" : {
             "a" : 1,
@@ -4613,8 +4686,7 @@
             "g" : 1,
             "hp" : false,
             "r" : 1,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "grenade_color" : {
             "a" : 1,
@@ -4630,8 +4702,7 @@
             "g" : 1,
             "hp" : false,
             "r" : 0,
-            "rainbow" : false,
-            "rainbowSpeed" : 0.5
+            "rainbow" : false
          },
          "weapon_color" : {
             "a" : 1,
@@ -4713,10 +4784,10 @@
       },
       "Spread" : {
          "color" : {
-            "a" : 1,
-            "b" : 0.17647059261798859,
+            "a" : 0.17587940394878387,
+            "b" : 0.058823525905609131,
             "g" : 0.78431379795074463,
-            "r" : 0.058823533356189728,
+            "r" : 0.087988995015621185,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
@@ -4739,14 +4810,24 @@
          "enabled" : false,
          "type" : 0
       },
+      "ZeusRadius" : {
+         "ZeusColor" : {
+            "a" : 1,
+            "b" : 0,
+            "g" : 0,
+            "r" : 1,
+            "rainbow" : false,
+            "rainbowSpeed" : 0.5
+         },
+         "enabled" : false
+      },
       "ally_color" : {
          "a" : 1,
          "b" : 1,
          "g" : 0,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "ally_info_color" : {
          "a" : 1,
@@ -4762,8 +4843,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "backend" : 1,
       "backtrack" : {
@@ -4807,8 +4887,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "ct_visible_color" : {
          "a" : 1,
@@ -4816,8 +4895,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "decoy_color" : {
          "a" : 1,
@@ -4842,8 +4920,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "enemy_info_color" : {
          "a" : 1,
@@ -4859,8 +4936,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "fish_color" : {
          "a" : 1,
@@ -4901,8 +4977,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "mine_color" : {
          "a" : 1,
@@ -4934,8 +5009,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "t_visible_color" : {
          "a" : 1,
@@ -4943,8 +5017,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "weapon_color" : {
          "a" : 1,
@@ -4969,6 +5042,13 @@
          "rainbowSpeed" : 0.5
       },
       "duration" : 5000,
+      "filterBombsite" : false,
+      "filterDamage" : false,
+      "filterDefuse" : false,
+      "filterDrop" : false,
+      "filterPickup" : false,
+      "filterPlant" : false,
+      "filterPurchases" : false,
       "lines" : 10,
       "showEnemies" : false,
       "showLocalplayer" : false,
@@ -4981,13 +5061,39 @@
       "viewmodel_enabled" : true,
       "viewmodel_value" : 90
    },
-   "FakeLag" : {
-      "adaptive" : true,
+   "FakeCrouch" : {
       "enabled" : false,
+      "key" : ""
+   },
+   "FakeLag" : {
+      "States" : {
+         "Air" : {
+            "enabled" : false,
+            "value" : 9
+         },
+         "Moving" : {
+            "enabled" : false,
+            "value" : 9
+         },
+         "Standing" : {
+            "enabled" : false,
+            "value" : 9
+         },
+         "enabled" : false
+      },
+      "adaptive" : false,
+      "bSend" : false,
+      "enabled" : false,
+      "lagSpike" : false,
+      "maxTicks" : 9,
+      "minTicks" : 0,
       "value" : 16
    },
    "FakeVote" : {
-      "message" : "Call timeout?"
+      "message" : "instant win F2"
+   },
+   "FakeWalk" : {
+      "enabled" : false
    },
    "GrenadeHelper" : {
       "OnlyMatching" : true,
@@ -5060,6 +5166,9 @@
       "enabled" : false,
       "key" : "t"
    },
+   "LogShots" : {
+      "enabled" : false
+   },
    "NameStealer" : {
       "enabled" : false,
       "team" : 0
@@ -5092,9 +5201,6 @@
       "enabled" : false,
       "value" : 160
    },
-   "QuickSwitch" : {
-      "enabled" : true
-   },
    "Radar" : {
       "InGame" : {
          "enabled" : true
@@ -5106,8 +5212,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "ally_visible_color" : {
          "a" : 1,
@@ -5115,8 +5220,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "bomb_color" : {
          "a" : 1,
@@ -5140,8 +5244,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "ct_visible_color" : {
          "a" : 1,
@@ -5149,8 +5252,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 0,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "enabled" : false,
       "enemies" : true,
@@ -5160,8 +5262,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "enemy_visible_color" : {
          "a" : 1,
@@ -5169,8 +5270,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "icons_scale" : 4.5,
       "legit" : false,
@@ -5185,8 +5285,7 @@
          "g" : 0,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "t_visible_color" : {
          "a" : 1,
@@ -5194,8 +5293,7 @@
          "g" : 1,
          "hp" : false,
          "r" : 1,
-         "rainbow" : false,
-         "rainbowSpeed" : 0.5
+         "rainbow" : false
       },
       "visibility_check" : false,
       "zoom" : 16
@@ -5724,11 +5822,17 @@
       "say_team" : false,
       "spammer_type" : 0
    },
+   "SvCheats" : {
+      "enabled" : false
+   },
    "ThirdPerson" : {
       "distance" : 479,
       "enabled" : false,
       "key" : 32,
       "type" : 0
+   },
+   "Thirdperson" : {
+      "key" : "v"
    },
    "TracerEffects" : {
       "effect" : 4,
@@ -5848,5 +5952,39 @@
       "NoViewPunch" : {
          "enabled" : false
       }
+   },
+   "coinID" : {
+      "coinVal" : 874
+   },
+   "compRank" : {
+      "rankVal" : 16
+   },
+   "gravity" : {
+      "amount" : 800,
+      "enabled" : false
+   },
+   "musicID" : {
+      "musicVal" : 20140
+   },
+   "viewmodel" : {
+      "enabled" : false
+   },
+   "viewmodelfov" : {
+      "fov" : 68
+   },
+   "viewmodelx" : {
+      "x" : 1
+   },
+   "viewmodely" : {
+      "y" : 1
+   },
+   "viewmodelz" : {
+      "z" : 1
+   },
+   "weaponRarity" : {
+      "weaponRarityVal" : 0
+   },
+   "weaponStatus" : {
+      "weaponStatusVal" : 0
    }
 }
