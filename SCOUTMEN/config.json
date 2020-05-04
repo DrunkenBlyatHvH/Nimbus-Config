@@ -17,6 +17,10 @@
       "AutoShoot" : {
          "velocityCheck" : false
       },
+      "NoSpread" : {
+         "enabled" : false
+      },
+      "type" : 1,
       "weapons" : {
          "DEFAULT" : {
             "AimKey" : "MOUSE3",
@@ -92,10 +96,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 70.188003540039062
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -213,10 +213,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 100.00000762939453
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -227,7 +223,7 @@
                "Enabled" : false
             },
             "Prediction" : {
-               "enabled" : true
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : false,
@@ -262,42 +258,33 @@
          }
       }
    },
-   "Airstuck" : {
-      "enabled" : false,
-      "key" : "f"
-   },
-   "AngleIndicator" : {
-      "enabled" : false
-   },
    "AntiAim" : {
       "AutoDisable" : {
-         "knife_held" : false,
-         "no_enemy" : false
-      },
-      "Fake" : {
-         "enabled" : false,
-         "type" : 2
-      },
-      "HeadEdge" : {
-         "enabled" : false
+         "knifeHeld" : false
       },
       "LBYBreaker" : {
          "enabled" : false,
-         "manual" : false,
          "offset" : 180
       },
-      "Pitch" : {
-         "enabled" : false,
-         "type" : 1
+      "States" : {
+         "Air" : {
+            "angle" : 180,
+            "type" : 0
+         },
+         "Run" : {
+            "angle" : 180,
+            "type" : 0
+         },
+         "Stand" : {
+            "angle" : 180,
+            "type" : 0
+         },
+         "enabled" : true
       },
-      "RageDesyncFix" : {
-         "enabled" : false
-      },
-      "Yaw" : {
-         "enabled" : false,
-         "offset" : 0,
-         "type" : 5
-      }
+      "enabled" : false,
+      "left" : "x",
+      "right" : "c",
+      "type" : 1
    },
    "AutoAccept" : {
       "enabled" : false
@@ -336,9 +323,6 @@
       },
       "enabled" : true
    },
-   "BackTrack" : {
-      "enabled" : true
-   },
    "ClanTagChanger" : {
       "animation" : false,
       "animation_speed" : 650,
@@ -354,13 +338,16 @@
       "radius" : 500
    },
    "ESP" : {
+      "Backtrack" : {
+         "enabled" : false
+      },
       "Bars" : {
          "color_type" : 1,
          "enabled" : true,
          "type" : 0
       },
       "Boxes" : {
-         "enabled" : true,
+         "enabled" : false,
          "type" : 0
       },
       "BulletTracers" : {
@@ -391,7 +378,7 @@
             "enabled" : false,
             "type" : 0
          },
-         "enabled" : true,
+         "enabled" : false,
          "localplayer_color" : {
             "a" : 1,
             "b" : 1,
@@ -437,7 +424,7 @@
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "type" : 0
+         "type" : 1
       },
       "DangerZone" : {
          "ammobox" : false,
@@ -773,9 +760,6 @@
          "rainbowSpeed" : 0.5
       },
       "backend" : 1,
-      "backtrack" : {
-         "enabled" : true
-      },
       "bomb_color" : {
          "a" : 1,
          "b" : 0.69019609689712524,
@@ -988,13 +972,14 @@
       "viewmodel_enabled" : true,
       "viewmodel_value" : 90
    },
-   "FakeLag" : {
-      "adaptive" : false,
+   "FakeDuck" : {
       "enabled" : false,
-      "value" : 9
+      "key" : 13
    },
-   "FakeVote" : {
-      "message" : "Call timeout?"
+   "FakeLag" : {
+      "enabled" : false,
+      "lagSpike" : false,
+      "value" : 9
    },
    "GrenadeHelper" : {
       "OnlyMatching" : true,
@@ -1063,9 +1048,8 @@
       },
       "enabled" : false
    },
-   "JumpThrow" : {
-      "enabled" : false,
-      "key" : "t"
+   "LagComp" : {
+      "enabled" : false
    },
    "NameStealer" : {
       "enabled" : true,
@@ -1098,9 +1082,6 @@
    "Noflash" : {
       "enabled" : false,
       "value" : 160
-   },
-   "QuickSwitch" : {
-      "enabled" : true
    },
    "Radar" : {
       "InGame" : {
@@ -1212,7 +1193,7 @@
       "showOnlyWhenShooting" : false
    },
    "Resolver" : {
-      "resolve_all" : false
+      "resolve_all" : true
    },
    "ScreenshotCleaner" : {
       "enabled" : false
@@ -1661,8 +1642,8 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : false,
-         "messages" : [ "", "" ],
+         "enabled" : true,
+         "messages" : [ "Hitting P" ],
          "say_team" : false
       },
       "NormalSpammer" : {
@@ -1689,8 +1670,7 @@
    "ThirdPerson" : {
       "distance" : 202,
       "enabled" : false,
-      "key" : 32,
-      "type" : 0
+      "key" : "v"
    },
    "TracerEffects" : {
       "effect" : 4,
@@ -1744,8 +1724,8 @@
          },
          "Main" : {
             "open" : true,
-            "posX" : 604,
-            "posY" : 122,
+            "posX" : 614,
+            "posY" : 205,
             "sizeX" : 960,
             "sizeY" : 645
          },
@@ -1794,6 +1774,8 @@
          "rainbow" : false,
          "rainbowSpeed" : 0.5
       },
+      "imGuiAliasedFill" : false,
+      "imGuiAliasedLines" : false,
       "mainColor" : {
          "a" : 1,
          "b" : 0.098038241267204285,
