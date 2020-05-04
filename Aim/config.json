@@ -15,8 +15,12 @@
          "enabled" : false
       },
       "AutoShoot" : {
-         "velocityCheck" : false
+         "velocityCheck" : true
       },
+      "NoSpread" : {
+         "enabled" : false
+      },
+      "type" : 1,
       "weapons" : {
          "DEFAULT" : {
             "AimKey" : "MOUSE5",
@@ -92,10 +96,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 77.230003356933594
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -106,7 +106,7 @@
                "Enabled" : false
             },
             "Prediction" : {
-               "enabled" : true
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -213,10 +213,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 80.516006469726562
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -231,8 +227,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -334,10 +330,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 69.718002319335938
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -352,8 +344,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -455,10 +447,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 95.07000732421875
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -475,7 +463,7 @@
                "AlwaysOn" : true,
                "AmountX" : 2,
                "AmountY" : 2,
-               "Enabled" : true
+               "Enabled" : false
             },
             "ScopeControl" : {
                "Enabled" : false
@@ -495,7 +483,7 @@
             },
             "SpreadLimit" : {
                "Enabled" : true,
-               "Value" : 0.0040000001899898052
+               "Value" : 0.010000000707805157
             },
             "TargetBone" : 5,
             "engageLock" : false,
@@ -576,10 +564,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 59.859001159667969
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -594,8 +578,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -646,7 +630,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -697,10 +681,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.023002624511719
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -818,10 +798,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 70.188003540039062
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -836,8 +812,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -888,7 +864,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -939,10 +915,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 73.944000244140625
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -957,8 +929,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1060,10 +1032,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 76.291000366210938
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1078,8 +1046,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1181,10 +1149,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.493003845214844
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1199,8 +1163,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1302,10 +1266,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 87.089004516601562
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1320,8 +1280,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1342,7 +1302,7 @@
             },
             "SpreadLimit" : {
                "Enabled" : true,
-               "Value" : 0.0060000000521540642
+               "Value" : 0.029000001028180122
             },
             "TargetBone" : 8,
             "engageLock" : false,
@@ -1423,10 +1383,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.962005615234375
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1441,8 +1397,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1544,10 +1500,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 80.986000061035156
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1562,8 +1514,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1614,7 +1566,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -1665,10 +1617,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.023002624511719
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1786,10 +1734,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 66.9010009765625
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1804,8 +1748,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1907,10 +1851,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 88.028007507324219
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -1925,8 +1865,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -1977,7 +1917,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -2028,10 +1968,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 80.047004699707031
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2149,10 +2085,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.798004150390625
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2167,8 +2099,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -2270,10 +2202,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.493003845214844
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2288,8 +2216,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -2391,10 +2319,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 64.554000854492188
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2512,10 +2436,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2633,10 +2553,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 71.596000671386719
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2651,8 +2567,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -2703,7 +2619,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -2754,10 +2670,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 55.16400146484375
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2875,10 +2787,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 65.962005615234375
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -2996,10 +2904,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 70.188003540039062
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3014,8 +2918,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -3066,7 +2970,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -3117,10 +3021,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 98.357002258300781
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3238,10 +3138,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 55.634002685546875
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3256,8 +3152,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -3359,10 +3255,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 86.150001525878906
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3480,10 +3372,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 75.822006225585938
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3601,10 +3489,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 100.00000762939453
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3615,7 +3499,7 @@
                "Enabled" : false
             },
             "Prediction" : {
-               "enabled" : true
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -3722,10 +3606,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : false,
-               "Value" : 70.657005310058594
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3792,7 +3672,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -3843,10 +3723,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3861,8 +3737,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -3964,10 +3840,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 67.840003967285156
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -3982,8 +3854,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -4034,7 +3906,7 @@
                "Enabled" : true
             },
             "AutoSlow" : {
-               "enabled" : true
+               "enabled" : false
             },
             "AutoWall" : {
                "Enabled" : true,
@@ -4085,10 +3957,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 85.681007385253906
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -4206,10 +4074,6 @@
                "Enabled" : false
             },
             "Friendly" : false,
-            "HitChance" : {
-               "Enabled" : true,
-               "Value" : 60.329002380371094
-            },
             "IgnoreEnemyJump" : {
                "Enabled" : false
             },
@@ -4224,8 +4088,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "ScopeControl" : {
@@ -4255,48 +4119,39 @@
          }
       }
    },
-   "Airstuck" : {
-      "enabled" : false,
-      "key" : "f"
-   },
-   "AngleIndicator" : {
-      "enabled" : false
-   },
    "AntiAim" : {
       "AutoDisable" : {
-         "knife_held" : false,
-         "no_enemy" : false
-      },
-      "Fake" : {
-         "enabled" : false,
-         "type" : 2
-      },
-      "HeadEdge" : {
-         "enabled" : false
+         "knifeHeld" : false
       },
       "LBYBreaker" : {
          "enabled" : false,
-         "manual" : false,
          "offset" : 180
       },
-      "Pitch" : {
-         "enabled" : false,
-         "type" : 2
+      "States" : {
+         "Air" : {
+            "angle" : 180,
+            "type" : 1
+         },
+         "Run" : {
+            "angle" : 180,
+            "type" : 1
+         },
+         "Stand" : {
+            "angle" : 180,
+            "type" : 1
+         },
+         "enabled" : true
       },
-      "RageDesyncFix" : {
-         "enabled" : false
-      },
-      "Yaw" : {
-         "enabled" : false,
-         "offset" : 0,
-         "type" : 3
-      }
+      "enabled" : true,
+      "left" : "x",
+      "right" : "c",
+      "type" : 1
    },
    "AutoAccept" : {
       "enabled" : true
    },
    "AutoDefuse" : {
-      "enabled" : true,
+      "enabled" : false,
       "silent" : false
    },
    "AutoKnife" : {
@@ -4308,9 +4163,9 @@
       "onKey" : false
    },
    "AutoStrafe" : {
-      "enabled" : false,
+      "enabled" : true,
       "silent" : true,
-      "type" : 0
+      "type" : 4
    },
    "Autoblock" : {
       "enabled" : true,
@@ -4329,9 +4184,6 @@
       },
       "enabled" : true
    },
-   "BackTrack" : {
-      "enabled" : true
-   },
    "ClanTagChanger" : {
       "animation" : false,
       "animation_speed" : 500,
@@ -4347,6 +4199,9 @@
       "radius" : 500
    },
    "ESP" : {
+      "Backtrack" : {
+         "enabled" : false
+      },
       "Bars" : {
          "color_type" : 1,
          "enabled" : true,
@@ -4643,7 +4498,7 @@
          }
       },
       "HeadDot" : {
-         "enabled" : false,
+         "enabled" : true,
          "size" : 2
       },
       "Hitmarker" : {
@@ -4713,20 +4568,20 @@
       },
       "Spread" : {
          "color" : {
-            "a" : 1,
-            "b" : 0.17647059261798859,
+            "a" : 0.30150753259658813,
+            "b" : 0.17647071182727814,
             "g" : 0.78431379795074463,
-            "r" : 0.058823533356189728,
+            "r" : 0.058823525905609131,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
          "enabled" : true,
-         "spreadLimit" : true,
+         "spreadLimit" : false,
          "spreadLimitColor" : {
             "a" : 1,
             "b" : 0.58823531866073608,
-            "g" : 0.019607843831181526,
-            "r" : 0.078431375324726105,
+            "g" : 0.019607825204730034,
+            "r" : 0.078393749892711639,
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          }
@@ -4766,9 +4621,6 @@
          "rainbowSpeed" : 0.5
       },
       "backend" : 1,
-      "backtrack" : {
-         "enabled" : true
-      },
       "bomb_color" : {
          "a" : 1,
          "b" : 0.69019609689712524,
@@ -4981,13 +4833,20 @@
       "viewmodel_enabled" : true,
       "viewmodel_value" : 90
    },
-   "FakeLag" : {
-      "adaptive" : true,
+   "FakeDuck" : {
       "enabled" : false,
-      "value" : 16
+      "key" : 13
    },
-   "FakeVote" : {
-      "message" : "Call timeout?"
+   "FakeLag" : {
+      "States" : {
+         "airValue" : 12,
+         "enabled" : false,
+         "moveValue" : 12,
+         "standValue" : 12
+      },
+      "enabled" : false,
+      "lagSpike" : true,
+      "value" : 16
    },
    "GrenadeHelper" : {
       "OnlyMatching" : true,
@@ -5056,9 +4915,9 @@
       },
       "enabled" : true
    },
-   "JumpThrow" : {
-      "enabled" : false,
-      "key" : "t"
+   "LagComp" : {
+      "enabled" : true,
+      "value" : 12
    },
    "NameStealer" : {
       "enabled" : false,
@@ -5091,9 +4950,6 @@
    "Noflash" : {
       "enabled" : true,
       "value" : 160
-   },
-   "QuickSwitch" : {
-      "enabled" : true
    },
    "Radar" : {
       "InGame" : {
@@ -5205,7 +5061,7 @@
       "showOnlyWhenShooting" : false
    },
    "Resolver" : {
-      "resolve_all" : false
+      "resolve_all" : true
    },
    "ScreenshotCleaner" : {
       "enabled" : false
@@ -5695,22 +5551,11 @@
    "Spammer" : {
       "KillSpammer" : {
          "enabled" : false,
-         "messages" : [
-            "",
-            "",
-            "Get my Linux Cheat on github.com/DrunkenBlyatHvH/Pasting-Fuzion"
-         ],
+         "messages" : [ "Swear Legit!" ],
          "say_team" : false
       },
       "NormalSpammer" : {
-         "messages" : [
-            "",
-            "",
-            "",
-            "",
-            "Get my Linux Cheat on github.com/DrunkenBlyatHvH/Pasting-Fuzion",
-            "НУБ is gay"
-         ]
+         "messages" : [ "Owned by EzFrags !!!!!!!!!!", "Try out EzFrags best HvH Cheat" ]
       },
       "PositionSpammer" : {
          "show_health" : true,
@@ -5726,9 +5571,8 @@
    },
    "ThirdPerson" : {
       "distance" : 479,
-      "enabled" : false,
-      "key" : 32,
-      "type" : 0
+      "enabled" : true,
+      "key" : "v"
    },
    "TracerEffects" : {
       "effect" : 4,
@@ -5776,7 +5620,7 @@
          "Config" : {
             "open" : true,
             "posX" : 1565,
-            "posY" : 223,
+            "posY" : 224,
             "sizeX" : 185,
             "sizeY" : 250
          },
@@ -5833,7 +5677,7 @@
          "rainbowSpeed" : 0.5
       },
       "mainColor" : {
-         "a" : 1,
+         "a" : 0.29648241400718689,
          "b" : 0,
          "g" : 0,
          "r" : 1,
